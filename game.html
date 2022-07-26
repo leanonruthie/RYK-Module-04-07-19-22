@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <div class="quiz-container" id="quiz">
-        <button id="timer">Timer Placeholder</button>
+    <div class="quiz-container" hidden id="quiz">
+        <p id="timer">[Countdown]</p>
         <h2 id="question">Question Placeholder</h2>
         <ul>
             <li>
@@ -31,8 +31,30 @@
                 <label for="d" id="d_text">Answer Placeholder</label>
             </li>
         </ul>
+        <div id="hint">
+            <p id="confirmanswer">Correct or Incorrect?<br>You'll know if you answered this question correctly or
+                not<br>followed by the next question.</p>
+        </div>
         <button id="submit">Submit</button>
     </div>
+    <div class="scoreboard-container" hidden id="scoreboard">
+        <h3 id="finalscore">Your Final Score</h3>
+        <p>...is your score!<br><br>Please submit your initials THEN<br>click on the leaderboard button.</p>
+        <form>
+            <label for="initials">Initials:</label><br>
+            <input type="text" id="initials">
+        </form>
+        <button type="submit" id="store">Submit Your Score with Initials</button>
+    </div>
+    <div class="leads-container" hidden id="leads">
+        <h1>Leaderboard</h1>
+        <ol id="highscores">
+        </ol>
+        <button id="gohome"><a href="index.html">Home Page</a></button>
+        <button id="clearscore">Clear Score</button>
+    </div>
+    <script src="./Assets/js/script.js"></script>
 </body>
-<script src="./Assets/js/script.js"></script>
+
+
 </html>

@@ -4,7 +4,7 @@
 
 AS A job applicant
 I WANT to take a timed quiz that stores high scores in front of a hiring manager/recruiter
-SO THAT I can prove my competency and land a job interview
+SO THAT I can prove my competence and land a job interview
 
 ## Acceptance Criteria
 

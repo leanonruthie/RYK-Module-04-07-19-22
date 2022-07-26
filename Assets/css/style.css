@@ -30,7 +30,8 @@ button {
     font-family: sans-serif;
     padding-top: 1%;
     padding-bottom: 1%;
-    border-color: lightgrey;
+    border-style: none;
+    margin-bottom: 11px;
 }
 
 button:focus{
@@ -42,11 +43,11 @@ form{
     color: darkslategrey;
     font-size:17px;
     text-align: center;
-    padding-bottom: 17px;
+    padding-bottom: 37px;
 }
 
-h1 {
-    padding-top: 17px;
+h1, h3 {
+    padding-top: 11px;
     text-align: center;
     font-size: 37px;
     color:orange;
@@ -69,6 +70,7 @@ p {
 
 ul {
     list-style-type: none;
+    padding-bottom: 17px;
 }
 
 li {
@@ -78,20 +80,32 @@ li {
     font-size: 17px;
 }
 
-.leaderboard-container {
+.leads-container ol {
+    color: darkslategrey;
+    padding-left:45%;
+}
+
+.scoreboard-container {
     margin-top: 17%;
     background-color: white;
     border-radius: 7px;
-    width: 600px;
+    width: 500px;
     overflow: hidden;
 }
 
+.leads-container {
+    margin-top: 17%;
+    background-color: white;
+    border-radius: 7px;
+    width: 500px;
+    overflow: hidden;
+}
 
 .main-container {
     margin-top: 17%;
     background-color: white;
     border-radius: 7px;
-    width: 600px;
+    width: 500px;
     overflow: hidden;
 }
 
@@ -99,15 +113,24 @@ li {
     margin-top: 17%;
     background-color: white;
     border-radius: 7px;
-    width: 600px;
+    width: 500px;
     overflow: hidden;
 }
 
 #quiz ul {
-    padding-left: 33%;
-    padding-bottom:17px;
+    padding-left: 31%;
+    padding-bottom:7px;
 }
 
 #timer {
-    background-color: darkslategrey;
+    background-color: teal;
+    color: white;
+    font-size: 17px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top:1%;
+    padding-bottom: 1%;
+    border-width: 1px;
+    border-color: lightgrey;
 }
