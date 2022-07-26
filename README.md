@@ -21,3 +21,9 @@ WHEN the quiz is completed
 THEN I am able to record my score with my initial for recruiter to see and determine whether I'm a congruent candidate for the job or not
 
 ## Link
+<a href=https://leanonruthie.github.io/RYK-Module-04-07-19-22>https://leanonruthie.github.io/RYK-Module-04-07-19-22/></a>
+
+## Screenshots
+<img src="./Assets/images/leanonruthie.github.io_RYK-Module-04-07-19-22_index.html.png" alt="Home Page"/>
+<img src="./Assets/images/leanonruthie.github.io_RYK-Module-04-07-19-22_game.html.png" alt="Quiz"/>
+<img src="./Assets/images/leanonruthie.github.io_RYK-Module-04-07-19-22_game.html (1).png" alt="Leaderboard"/>
